@@ -79,12 +79,12 @@ export default function Card({ data, index, listIndex }) {
   <Container isDragging={isDragging} ref={ref} style={{backgroundColor: 'white'}}>
       <header>
         {data.labels.map(label => <Label key={label} color={label} />) }
+        {data.user && <img  src={data.user} alt="icon"/>}
 
       </header>
       <p>
         {data.content}
       </p>
-      {data.user && <img  src={data.user} alt="icon"/>}
     </Container>
   );
 }

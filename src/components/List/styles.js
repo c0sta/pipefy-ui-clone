@@ -16,8 +16,8 @@ export const Container = styled.div`
     header {
         display: flex;
         justify-content: space-between;
-        align-items: 'center';
-        height: 42px;
+        align-items: center;
+        height: 30px;
 
 
         h2{
@@ -26,10 +26,16 @@ export const Container = styled.div`
             padding: 0 10px;
         }
 
+        label {
+            font-weight: 400;
+            font-size: 16px;
+
+        }
+
         button {
             width: 42px;
             height: 42px;
-            border-radius: 25px;
+            border-radius: 16px;
             background: #3b5bfd;
             border: 0;
             cursor: pointer;

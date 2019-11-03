@@ -16,6 +16,7 @@ function List({data, index: listIndex, connectDropTarget})
       <Container done={data.done}>
         <header>
           <h2>{data.title}</h2>
+          <label>{data.cards.length}</label>
           {data.creatable && (
             <button type="button">
               <MdAdd size={24} color="#FFF"/>
