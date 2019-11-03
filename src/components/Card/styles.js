@@ -1,4 +1,7 @@
 import styled, { css } from 'styled-components';
+
+
+
 // css -> Utilizado p/ aplicar múltiplas instruções CSS
 // baseado em uma condição
 
@@ -29,8 +32,9 @@ img {
     border-radius: 30px;
 }
 
-
+// Drag effect 
 ${ props => props.isDragging && css`
+
     border: 2px dashed rgba(0,0,0,0.2);
     padding-top: 31px; 
     border-radius: 0;
