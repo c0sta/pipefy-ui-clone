@@ -12,4 +12,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Printscreen
 
-![Rocketfy](https://user-images.githubusercontent.com/36762964/68093582-cdddba80-fe75-11e9-8e67-26f3d7b0c930.gif)
+![rocketfy](https://user-images.githubusercontent.com/36762964/68093692-1053c700-fe77-11e9-8d42-420f910dce6c.gif)
