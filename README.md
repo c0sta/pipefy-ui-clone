@@ -1,5 +1,5 @@
-Pipefy Clone
-## Info
+# Pipefy Clone
+### About
 Projeto desenvolvido ao longo do video da Rocketseat 🚀
 Veja o projeto [aqui](https://c0sta.github.io/pipefy-ui-clone/)
 
